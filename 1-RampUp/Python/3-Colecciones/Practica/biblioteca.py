@@ -22,7 +22,7 @@ libros = [
 ]
 
 import pprint
-
+import time , os
 from tabulate import tabulate
 
 def visualizar_biblioteca():
@@ -153,5 +153,8 @@ def mostrar_menu():
             break
         else:
             print(f"'{opcion}' no es válido. Introduzca un número del 1 al 7.")
+
+        time.sleep(5)
+        os.system("cls")
 
 mostrar_menu()
