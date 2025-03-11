@@ -1,13 +1,13 @@
-from tabulate import tabulate
+# from tabulate import tabulate
+import string
+# tablero = []  
 
-tablero = []  
+# for x in range(10): 
+#     fila = ["."] * 10  
+#     tablero.append(fila)  
 
-for x in range(10): 
-    fila = ["."] * 10  
-    tablero.append(fila)  
+# print(tabulate(tablero, tablefmt="fancy_grid"))
 
-print(tabulate(tablero, tablefmt="fancy_grid"))
+# tablero[3][5] = "B"
 
-tablero[3][5] = "B"
-
-print(tabulate(tablero, tablefmt="fancy_grid"))
+# print(tabulate(tablero, tablefmt="fancy_grid"))
